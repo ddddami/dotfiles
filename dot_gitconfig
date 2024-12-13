@@ -1,0 +1,20 @@
+[core]
+	editor = vim
+	autocrlf = input
+[user]
+	name = Damilola O.
+	email = 82976159+ddddami@users.noreply.github.com
+[init]
+	defaultBranch = master
+[alias]
+	lag = log --oneline --all
+	lg = log --oneline --graph
+	graph = log --oneline --graph  --all
+	ss = status -s
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+
