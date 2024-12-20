@@ -5,8 +5,9 @@ local config = wezterm.config_builder()
 
 -- config.color_scheme = 'Catppuccin Mocha'
 
--- config.enable_tab_bar = false
 config.automatically_reload_config = true
+-- config.enable_tab_bar = false
+-- config.hide_tab_bar_if_only_one_tab = true
 config.window_decorations = "RESIZE"
 -- config.default_cursor_style = "BlinkingBar"
 -- config.font = wezterm.font 'Jetbrains Mono'
