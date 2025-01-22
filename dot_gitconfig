@@ -4,6 +4,7 @@
 [user]
 	name = Damilola O.
 	email = 82976159+ddddami@users.noreply.github.com
+	signingkey = 3FEC2E81F2AECF8D
 [init]
 	defaultBranch = master
 [alias]
@@ -18,3 +19,11 @@
 	helper = 
 	helper = !/usr/bin/gh auth git-credential
 
+[pull]
+	rebase = false
+[gpg]
+	program = /usr/bin/gpg
+[commit]
+	gpgSign = true
+[tag]
+	gpgSign = true
