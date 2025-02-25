@@ -1,6 +1,8 @@
 [core]
 	editor = vim
 	autocrlf = input
+	excludesfile = /home/damilola/.gitignore_global
+	pager = delta
 [user]
 	name = Damilola O.
 	email = 82976159+ddddami@users.noreply.github.com
@@ -27,3 +29,9 @@
 	gpgSign = true
 [tag]
 	gpgSign = true
+[interactive]
+	diffFilter = delta --color-only
+[delta]
+	navigate = true
+[merge]
+	conflictStyle = zdiff3
