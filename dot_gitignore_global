@@ -23,7 +23,8 @@ __pycache__/
 # testing
 /coverage
 
-/build
-/dist
+build/
+dist/
+bin/
 
 .wakatime-project
